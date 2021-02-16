@@ -1,0 +1,40 @@
+.container {
+  width: 70vw;
+  height: 100vh;
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttonsList {
+  margin-top: 5%;
+  display: flex;
+  width: 20%;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.buttonsList button {
+  flex: 1 1 auto;
+  margin: 10px;
+  padding: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  background-image: linear-gradient(
+    to right,
+    #fbc2eb 0%,
+    #a6c1ee 51%,
+    #fbc2eb 100%
+  );
+}
+
+.stopwatchCounter{
+    font-size: 30px;
+}
